@@ -1,0 +1,262 @@
+@import'../../scss/main.scss';
+.service{
+    margin-top: 155px;
+    width: 100%;
+    height: 1000px;
+    // border: 1px solid;
+    .article{
+        width: 80%;
+        height: 100%;
+        // border: 1px solid;
+        margin: 0 auto;
+        .div{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 15%;
+            // border: 1px solid;
+            .kor{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 34%;
+                height: 100%;
+                // border: 1px solid;
+                h1{
+                    width: 470px;
+                    flex-shrink: 0;
+                    color: #211F54;
+                    font-family: sans-serif;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 57.984px; /* 120.8% */
+                }
+            }
+            .bro{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 30%;
+                height: 100%;
+                // border: 1px solid;
+                .button3{
+                    width: 217px;
+                    height: 72px;
+                    flex-shrink: 0;
+                    border-radius: 14px;
+                    background: #0075FF;
+                    color: #FFF;
+                    text-align: center;
+                    font-family:sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 20px; /* 111.111% */
+                    border: none;
+                    &:hover{
+                        background-color: rgb(30, 210, 36);
+                        transition: 0.4s;
+                    }
+
+                }
+
+                .button4{
+                    width: 204px;
+                    height: 73px;
+                    flex-shrink: 0;
+                    border-radius: 14px;
+                    border: 1px solid #EFF0F6;
+                    background: #FFF;
+                    box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+                    color: #211F54;
+                    text-align: center;
+                    font-family:sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 19.998px; /* 111.1% */
+                    &:hover{
+                        background-color: rgb(30, 210, 36);
+                        color: white;
+                        transition: 0.4s;
+                    }
+
+                }
+            }
+
+        }
+
+        .ustma{
+            display: flex;
+            width: 100%;
+            height: 85%;
+            // border: 1px solid;
+            .birinchi{
+                display: flex;
+                position: relative;
+                width: 50%;
+                height: 100%;
+                // border: 1px solid;
+                .orqafon{
+                    
+                    width: 95%;
+                    height: 50%;
+                    // border: 1px solid;
+                    margin: 0 auto;
+                    margin-top: 70px;
+                    background-image: url(../../assets/images/kattasi.svg);
+                    background-size: 100%;
+                }
+
+                .ccard{
+                    // display: flex;
+                    width: 600px;
+                    height: 350px;
+                    // border: 1px solid;
+                    position: absolute;
+                    margin-top: 438px;
+                    margin-left: 80px;
+                    border-radius: 24px;
+                    border: 1px solid #EFF0F6;
+                    background: #FFF;
+                    box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+                    padding: 50px 50px;
+                    h3{
+                        width: 417px;
+                        color: #211F54;
+                        font-family: sans-serif;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 34.008px; /* 141.7% */
+                    }
+                    p{
+                        margin-top: 20px;
+                        width: 434px;
+                        color: #6E7191;
+                        font-family: sans-serif;
+                        font-size: 21px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30.006px; /* 142.886% */
+                    }
+                    .ayril{
+                        width: 100%;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 10px;
+                        display: flex;
+                        // border: 1px solid;
+                        h4{
+                            width: 109px;
+                            color: #211F54;
+                            font-family: sans-serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 19.998px; /* 111.1% */
+                        }
+
+                        button{
+                            width: 50px;
+                            height: 50px;
+                            flex-shrink: 0;
+                            background: #0075FF;
+                            border: none;
+                            &:hover{
+                                background-color: rgb(30, 210, 36);
+                                transition: 0.4s;
+                            }
+
+                        }
+                    }
+                }
+            }
+            .ikkinchi{
+                display: flex;
+                position: relative;
+                width: 50%;
+                height: 100%;
+                // border: 1px solid;
+                .orqafon{
+                    width: 95%;
+                    height: 50%;
+                    // border: 1px solid;
+                    margin: 0 auto;
+                    margin-top: 70px;
+                    background-image: url(../../assets/images/tozala.svg);
+                    background-size: 100%;
+                }   
+
+                
+                .ccard{
+                    // display: flex;
+                    width: 600px;
+                    height: 350px;
+                    border: 1px solid;
+                    position: absolute;
+                    margin-top: 370px;
+                    margin-left: 60px;
+                    border-radius: 24px;
+                    border: 1px solid #EFF0F6;
+                    background: #FFF;
+                    box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+                    padding: 50px 50px;
+                    h3{
+                        width: 417px;
+                        color: #211F54;
+                        font-family: sans-serif;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 34.008px; /* 141.7% */
+                    }
+                    p{
+                        margin-top: 20px;
+                        width: 434px;
+                        color: #6E7191;
+                        font-family: sans-serif;
+                        font-size: 21px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30.006px; /* 142.886% */
+                    }
+                    .ayril{
+                        width: 100%;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 10px;
+                        display: flex;
+                        // border: 1px solid;
+                        h4{
+                            width: 109px;
+                            color: #211F54;
+                            font-family: sans-serif;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 19.998px; /* 111.1% */
+                        }
+
+                        button{
+                            width: 50px;
+                            height: 50px;
+                            flex-shrink: 0;
+                            background: #0075FF;
+                            border: none;
+                            &:hover{
+                                background-color: rgb(30, 210, 36);
+                                transition: 0.4s;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+           
+    }
+       
+}

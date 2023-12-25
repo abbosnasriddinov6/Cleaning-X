@@ -1,0 +1,127 @@
+@import'../../scss/main.scss';
+.service{
+    margin-top: 200px;
+    width: 100%;
+    height: 800px;
+    // border: 1px solid;
+    .our{
+        width: 80%;
+        height: 100%;
+        // border: 1px solid;
+        margin: 0 auto;
+        .buttonbn{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 20%;
+            // border: 1px solid;
+            .hh1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 35%;
+                height: 100%;
+                // border: 1px solid;
+                h1{
+                    width: 475px;
+                    color: #211F54;
+                    font-family: 'Sen', sans-serif;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 57.984px; /* 120.8% */
+                }
+            }
+            .explore{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20%;
+                height: 100%;
+                // border: 1px solid;
+                button{
+                    width: 214px;
+                    height: 73px;
+                    flex-shrink: 0;
+                    border-radius: 14px;
+                    border: 1px solid #EFF0F6;
+                    background: #FFF;
+                    box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+                    color: #211F54;
+                    text-align: center;
+                    font-family: 'Sen', sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 19.998px; /* 111.1% */
+                    &:hover{
+                        background-color: rgb(30, 210, 36);
+                        transition: 0.4s;
+                        color: white;
+                    }
+
+                }
+            }
+        }
+
+        .cardlar{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 80%;
+            // border: 1px solid;
+            padding: 0 50px;
+            .card{
+                width: 410px;
+                height: 516px;
+                // border: 1px solid;
+                flex-shrink: 0;
+                border-radius: 16px;
+                border: 1px solid #EFF0F6;
+                background: #FFF;
+                box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+                
+                .uy{
+                    display: flex;
+                    justify-content: center;
+                    align-items: end;
+                    width: 80%;
+                    height: 55%;
+                    // border: 1px solid;
+                    margin: 0 auto;
+                    .uycha{
+                        width: 80%;
+                        height: 80%;
+                    }
+                
+                }
+
+                h1{
+                    width: 220px; 
+                    color: #211F54;
+                    text-align: center;
+                    font-family: 'Sen', sans-serif;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 34.008px; /* 141.7% */
+                    margin-top: 24px;
+                    margin-left: 95px;
+                }
+                p{
+                    width: 312px;
+                    color: #6E7191;
+                    text-align: center;
+                    font-family: 'Sen', sans-serif;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30.006px; /* 142.886% */
+                    margin-top: 24px;
+                    margin-left: 45px;
+                }
+            }
+        }
+    }
+}
