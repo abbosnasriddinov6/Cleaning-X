@@ -1,5 +1,6 @@
 import React from 'react';
 import { Group, logo, cellphone } from '../../assets';
+import "./Header.scss"
 
 
 
@@ -30,19 +31,21 @@ const Header = () => {
             </ul>
           </div>
         </div>
-        <div className={appStyles.yozuv}>
-          <div className={appStyles.yozuvlar}>
-            <h1>Quality cleaning <br /> for your home</h1>
-            <p>Condimentum mauris sit cursus amet id non neque pharetra nulla ornare sed facilisis senectus dapibus nibh ultrices eget suscipit aliquet et nulla magna lacus penatibus.</p>
-            <div className={appStyles.telvabut}>
-              <button>Get a free quote</button>
-              <div className={appStyles.tel}>
-                <img className={appStyles.tele} src={cellphone} alt="chiqyapsiz" />
+        <div className='more'>
+          <div className={appStyles.yozuv}>
+            <div className={appStyles.yozuvlar}>
+              <h1>Quality cleaning <br /> for your home</h1>
+              <p>Condimentum mauris sit cursus amet id non neque pharetra nulla ornare sed facilisis senectus dapibus nibh ultrices eget suscipit aliquet et nulla magna lacus penatibus.</p>
+              <div className={appStyles.telvabut}>
+                <button>Get a free quote</button>
+                <div className={appStyles.tel}>
+                  <img className={appStyles.tele} src={cellphone} alt="chiqyapsiz" />
+                </div>
               </div>
             </div>
-          </div>
-          <div className={appStyles.rasm}>
-            <img className={appStyles.opahon} src={ Group } alt="" />
+            <div className={appStyles.rasm}>
+              <img className={appStyles.opahon} src={Group} alt="" />
+            </div>
           </div>
         </div>
       </div>

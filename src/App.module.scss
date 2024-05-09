@@ -18,6 +18,11 @@
 }
 
 .nav{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -185,3 +190,4 @@
        }
     }
 }
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import FooterStyles from '../../Footer.module.scss';
 import {  logo,  } from '../../assets';
+import "./Footer.scss"
 
 
 const Footer = () => {
@@ -35,7 +36,7 @@ const Footer = () => {
           <h3>Get a free estimate</h3>
           <h1>(414) 567 - 2109</h1>
           <p>Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do eiusmod.</p>
-          <button>Request a free quote</button>
+          <button className='lastbuton'>Request a free quote</button>
         </div>
         <hr />
       </div>
